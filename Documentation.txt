@@ -1,0 +1,18 @@
+
+# Business Logic
+Restaurant searching website writen in golang. The system will first search in MongoDB based on Term and Location. If the record does not exist, it will search in Yelp and then insert the data from Yelp to MongoDB
+  
+# Steps to run
+1. Build file by "go build main.go"
+2. Run by "go run main.go"
+3. Unit test can be run by "go test"
+2. Open your browser and type in localhost:8000
+3. Enter your search criteria and press the search button
+4. Results will be shown in a table format with collected marks of google map.
+
+Assumption:
+1. User will give the right input. Otherwise output may not be proper
+2. Go and MongoDb are already installed
+3. Active internet conenction
+
+

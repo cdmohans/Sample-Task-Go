@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurants Searching...</title>
+    <link rel="stylesheet" href="/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/libs/bootstrap-table-1.11.1-dist/bootstrap-table.min.css" type="text/css">
+    <script src="/libs/jquery-3.2.1.min.js"></script>
+    <script src="/libs/bootstrap-table-1.11.1-dist/bootstrap-table.min.js"></script>
+	<script src="/libs/jquery.googlemap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIEQea7LEUogZQpaOJjeS7Vm1So7dacOQ"></script>
+  </head>
+  <body>
+   <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Restaurants Searching</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+      {{ template "content" . }}
+    </div>
+  </body>
+</html>
